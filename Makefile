@@ -8,7 +8,7 @@ test:
 	PYTHONPATH=. py.test
 	PYTHONPATH=. py.test --verbose -s
 
-	lint:
+lint:
 			flake8 hello_world test
 run:
 	python main.py
