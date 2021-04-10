@@ -12,3 +12,6 @@ lint:
 			flake8 hello_world test
 run:
 	python main.py
+
+docker_build:
+	docker build -t hello-world-printer .
