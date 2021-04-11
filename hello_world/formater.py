@@ -6,7 +6,7 @@ PLAIN_LO = "plain_lowercase"
 JSON = "json"
 XML = "xml"
 
-SUPPORTED = [PLAIN, PLAIN_UP, PLAIN_LO, JSON]
+SUPPORTED = [PLAIN, PLAIN_UP, PLAIN_LO, JSON, XML]
 
 
 def get_formatted(msg, imie, format):
