@@ -26,7 +26,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   #przejd do se_hello_printer_app
 
   # jako zwykły program
-  $ python main.py
+  $ python3 main.py
 
   # albo:
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
@@ -90,3 +90,5 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+Statuscake
+```utworzono konto, dodano url aplikacji
